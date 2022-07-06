@@ -18,10 +18,10 @@ function App() {
     );
   });
   return (
-    <div className="App">
+    <div>
       <Navbar />
       <Hero />
-      <div className="card--container">{singleCard}</div>
+      <section className="card--list">{singleCard}</section>
     </div>
   );
 }
