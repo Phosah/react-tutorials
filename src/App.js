@@ -6,16 +6,7 @@ import "./App.css";
 
 function App() {
   const singleCard = cardData.map((card) => {
-    return (
-      <Card
-        img={card.img}
-        rating={card.rating}
-        reviewCount={card.reviewCount}
-        country={card.country}
-        title={card.title}
-        price={card.price}
-      />
-    );
+    return <Card key={card.id} card={card} />;
   });
   return (
     <div>
