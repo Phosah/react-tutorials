@@ -4,7 +4,6 @@
 // import cardData from "./cardData";
 import Header from "./components/Header";
 import Meme from "./components/Meme";
-import memesData from "./memesData";
 import "./App.css";
 
 // function App() {
@@ -21,12 +20,6 @@ import "./App.css";
 // }
 
 function App() {
-  const totalMemes = memesData.data.memes;
-  let singleMeme;
-  console.log(totalMemes);
-  singleMeme = totalMemes.map((meme) => {
-    return console.log(meme);
-  });
   return (
     <div>
       <Header />
