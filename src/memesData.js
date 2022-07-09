@@ -1,5 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
-// 20220706084424
 // https://api.imgflip.com/get_memes
 
 export default {
