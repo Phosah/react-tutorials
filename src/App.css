@@ -146,10 +146,10 @@ section {
 }
 
 .meme {
+  max-width: 800px;
   height: 500px;
   position: relative;
-  max-width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .meme--image {
